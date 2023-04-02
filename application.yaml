@@ -6,11 +6,11 @@ metadata:
 spec:
   project: default
 
-  source: https://github.com/I2BKeit/argo-cd.git
-    repoURL: 
+  source:
+    repoURL: https://github.com/I2BKeit/argo-cd.git
     targetRevision: HEAD
     path: dev
-  destination: 
+  destination:
     server: https://kubernetes.default.svc
     namespace: myapp
 
