@@ -6,8 +6,8 @@ metadata:
 spec:
   project: default
 
-  source:
-    repoURL: https://gitlab.com/nanuchi/argocd-app-config.git
+  source: https://github.com/I2BKeit/argo-cd.git
+    repoURL: 
     targetRevision: HEAD
     path: dev
   destination: 
